@@ -24,8 +24,6 @@
 
 let heading = document.getElementById("heading");
 heading.onclick = function(event){
-    event.target.textContent = "Hafeez"
-    
-   
+    event.target.textContent = "Hi";
 
 }

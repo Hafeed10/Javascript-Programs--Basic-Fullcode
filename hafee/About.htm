@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Key Press Example</title>
+</head>
+<body>
+
+<script type="text/javascript">
+  // Function to handle key press events
+  function handleKeyPress(event) {
+    const key = event.key.toUpperCase(); // Convert the key to uppercase for case-insensitive comparison
+    if (key === 'E' || key === 'Q' || key === 'U' || key === 'A' || key === 'L') {
+      document.getElementById('output').innerText = "You clicked equal";
+    } else {
+      document.getElementById('output').innerText = "not equal";
+    }
+  }
+
+  // Event listener to listen for key presses
+  document.addEventListener('keypress', handleKeyPress);
+</script>
+
+<p>Press 'E', 'Q', 'U', 'A', or 'L' to see the message.</p>
+<p id="output"></p>
+
+</body>
+</html>
