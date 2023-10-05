@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Car Details</title>
+</head>
+<body>
+
+<script>
+
+class Car {
+  constructor(mileage, length, boot_space) {
+    this.mileage = mileage;
+    this.length = length;
+    this.boot_space = boot_space;
+  }
+  Details() {
+    const detailsElement = document.createElement("p");
+    detailsElement.textContent = `Mileage: ${this.mileage} MPG, Length: ${this.length} meters, Boot Space: ${this.boot_space} liters`;
+    document.body.appendChild(detailsElement);
+  }
+}
+const myCar = new Car(30, 4.5, 500);
+myCar.Details();
+</script>
+
+</body>
+</html>
