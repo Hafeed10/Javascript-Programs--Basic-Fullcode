@@ -36,7 +36,21 @@
          console.log(all_students);
 
           let hafe_loop = ["dildar" , "thasneem" , "joooo" , "loop"];
-          console.log(hafe_loop)
+          console.log(hafe_loop);
+
+//           let myArray = [1, 2, 3, 4, 5];
+// let indexToDelete = 2; // Index of the element to delete
+
+// if (indexToDelete >= 0 && indexToDelete < myArray.length) {
+//   myArray.splice(indexToDelete, 1); // Removes 1 element at the specified index
+//   console.log(`Deleted element at index ${indexToDelete}.`);
+// } else {
+//   console.log(`Invalid index: ${indexToDelete}`);
+// }
+
+// console.log(myArray)
+
+
           
      
    
